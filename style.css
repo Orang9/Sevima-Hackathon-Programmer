@@ -136,6 +136,7 @@ a.tbl-kuning:hover {
 .container {
     max-width: 800px;
     margin: 50px auto;
+    flex-wrap: wrap;
 }
 
 .materi {
@@ -155,6 +156,21 @@ a.tbl-kuning:hover {
 
 .materi.tiga { 
     background: #EA906C;
+    color: #FFFFFF;
+}
+
+.materi.empat {
+    background: #395B64;
+    color: #FFFFFF;
+}
+
+.materi.lima {
+    background: #5F8D4E;
+    color: #FFFFFF;
+}
+
+.materi.enam {
+    background: #3C6255;
     color: #FFFFFF;
 }
 
