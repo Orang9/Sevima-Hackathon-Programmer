@@ -184,3 +184,29 @@ a.tbl-kuning:hover {
         width: 30%;
      }
 }
+
+.container-quiz {
+    width: 800px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;      
+}
+
+.quiz {
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    background-color: #eee;
+    overflow: hidden;
+    margin: 10px;
+    flex: 1;
+}
+
+.quiz .header {
+    height: 150px;
+    background-color: #666;
+}
+
+.quiz .content {
+    text-align: center;
+    padding-bottom: 20px; 
+}
