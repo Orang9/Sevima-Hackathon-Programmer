@@ -97,3 +97,38 @@ h2 {
     width: 100%;
     line-height: 50px;
 }
+
+a.tbl-merah {
+    background: #4F709C;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-merah:hover {
+    background: #213555;
+    text-decoration: none;
+}
+
+a.tbl-kuning {
+    background: #4F709C;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+a.tbl-kuning:hover {
+    background: #213555;
+    text-decoration: none;
+}
