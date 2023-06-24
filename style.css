@@ -132,3 +132,39 @@ a.tbl-kuning:hover {
     background: #213555;
     text-decoration: none;
 }
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.materi {
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.materi.satu {
+    background: #2B2A4C;
+    color: #FFFFFF;
+}
+
+.materi.dua {
+    background: #B31312;
+    color: #FFFFFF;
+}
+
+.materi.tiga { 
+    background: #EA906C;
+    color: #FFFFFF;
+}
+
+@media( min-width: 600px ) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+     }
+
+     .materi {
+        width: 30%;
+     }
+}
